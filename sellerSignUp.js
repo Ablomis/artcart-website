@@ -12,7 +12,7 @@ function signUp(){
       .then((userCredential) => {
         // Signed in 
         const user = userCredential.user;
-        window.location.replace('./seller/account-center');
+        window.location.replace('./account-center');
         // ...
       })
       .catch((error) => {
