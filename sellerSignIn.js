@@ -12,7 +12,7 @@ function signIn(){
       .then((userCredential) => {
         // Signed in 
         const user = userCredential.user;
-        window.location.replace('./account-center');
+        window.location.replace('./account-center-test');
         // ...
       })
       .catch((error) => {
